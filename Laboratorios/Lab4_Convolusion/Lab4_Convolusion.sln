@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab4_Convolusion", "Lab4_Convolusion\Lab4_Convolusion.vcxproj", "{94D25631-685F-4954-8E02-E8E22EF9B47E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94D25631-685F-4954-8E02-E8E22EF9B47E}.Debug|x64.ActiveCfg = Debug|x64
+		{94D25631-685F-4954-8E02-E8E22EF9B47E}.Debug|x64.Build.0 = Debug|x64
+		{94D25631-685F-4954-8E02-E8E22EF9B47E}.Release|x64.ActiveCfg = Release|x64
+		{94D25631-685F-4954-8E02-E8E22EF9B47E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C92113F-76D8-42FA-BC5F-EC105BFEFBEC}
+	EndGlobalSection
+EndGlobal
