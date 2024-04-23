@@ -1,0 +1,24 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\eduar\OneDrive\Documentos\UP\8voSemestre\paraleloAvanzado\p1\Partial2_SudokuSolver_Final\Partial2_SudokuSolver_Final>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\eduar\OneDrive\Documentos\UP\8voSemestre\paraleloAvanzado\p1\Partial2_SudokuSolver_Final\Partial2_SudokuSolver_Final\x64\Debug\kernel.cu.obj "C:\Users\eduar\OneDrive\Documentos\UP\8voSemestre\paraleloAvanzado\p1\Partial2_SudokuSolver_Final\Partial2_SudokuSolver_Final\kernel.cu" 
+  kernel.cu
+  tmpxft_000057e0_00000000-7_kernel.cudafe1.cpp
+  
+  C:\Users\eduar\OneDrive\Documentos\UP\8voSemestre\paraleloAvanzado\p1\Partial2_SudokuSolver_Final\Partial2_SudokuSolver_Final>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -dlink  -o x64\Debug\Partial2_SudokuSolver_Final.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin/crt" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib cudadevrt.lib  -gencode=arch=compute_52,code=sm_52 -G  C:\Users\eduar\OneDrive\Documentos\UP\8voSemestre\paraleloAvanzado\p1\Partial2_SudokuSolver_Final\Partial2_SudokuSolver_Final\x64\Debug\kernel.cu.obj 
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  cudart.lib
+  cudadevrt.lib
+  kernel.cu.obj
+  Partial2_SudokuSolver_Final.vcxproj -> C:\Users\eduar\OneDrive\Documentos\UP\8voSemestre\paraleloAvanzado\p1\Partial2_SudokuSolver_Final\x64\Debug\Partial2_SudokuSolver_Final.exe
